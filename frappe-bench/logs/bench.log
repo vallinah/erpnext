@@ -745,3 +745,4 @@
 2025-04-23 17:50:14,531 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
 2025-04-23 17:54:03,320 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext migrate
 2025-04-23 17:54:15,334 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost migrate
+2025-04-23 18:00:02,047 INFO /home/otisoa-vallinah/.local/bin/bench --verbose --site all backup

@@ -1718,3 +1718,5 @@ ALTER TABLE `tabAddress` MODIFY `is_primary_address` tinyint NOT NULL DEFAULT 0,
 ALTER TABLE `tabContact` ADD COLUMN `is_billing_contact` tinyint NOT NULL DEFAULT 0
 2025-04-23 08:57:06,172 WARNING database DDL Query made to DB:
 ALTER TABLE `tabContact` MODIFY `pulled_from_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `sync_with_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_contact` tinyint NOT NULL DEFAULT 0, MODIFY `unsubscribed` tinyint NOT NULL DEFAULT 0
+2025-04-23 17:54:15,721 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)

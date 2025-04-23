@@ -738,3 +738,10 @@
 2025-04-23 12:12:50,612 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost mariadb -e SHOW CREATE TABLE tabWorkstation Type
 2025-04-23 12:12:51,305 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost mariadb -e SHOW CREATE TABLE tabWorkstation Working Hour
 2025-04-23 12:12:52,088 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost mariadb -e SHOW CREATE TABLE web_form_list_column_id_seq
+2025-04-23 17:50:14,350 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-23 17:50:14,507 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-23 17:50:14,509 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-23 17:50:14,531 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-23 17:50:14,531 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-23 17:54:03,320 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext migrate
+2025-04-23 17:54:15,334 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost migrate

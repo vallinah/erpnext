@@ -1,6 +1,7 @@
 {
- "db_name": "_702b5743adb7d721",
- "db_password": "lrnlyLFOMdflmDWg",
+ "db_name": "_d0aab638649a66a6",
+ "db_password": "GdcyiNYsq38Xqg7m",
  "db_type": "mariadb",
- "db_user": "_702b5743adb7d721"
+ "db_user": "_d0aab638649a66a6",
+ "developer_mode": 1
 }

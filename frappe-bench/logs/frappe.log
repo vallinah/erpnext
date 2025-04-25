@@ -1,0 +1,6 @@
+2025-04-25 16:09:38,917 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-eujsdcubya","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Reinitialiser","title":"Reinitialisation de dpnnée","module":"Reinitialiser"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-25 16:10:28,989 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-eujsdcubya","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Reinitialiser","title":"Reinitialisation de donnée","module":"Reinitialiser"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

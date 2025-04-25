@@ -6699,3 +6699,27 @@ Error while reading from 127.0.0.1:11000 : (104, 'Connection reset by peer')
 2025-04-25 11:17:53,506 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short
 2025-04-25 11:17:53,507 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default
 2025-04-25 11:17:53,507 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long
+2025-04-25 11:19:27,058 Worker e27c585db58e44e29c49728f34c09ec8 [PID 16751]: warm shut down requested
+2025-04-25 11:19:27,059 Unsubscribing from channel rq:pubsub:e27c585db58e44e29c49728f34c09ec8
+2025-04-25 11:19:32,079 Worker rq:worker:6e83f85c56e046a2b2dab80b5f29dd9e started with PID 17999, version 2.3.2
+2025-04-25 11:19:32,079 Subscribing to channel rq:pubsub:6e83f85c56e046a2b2dab80b5f29dd9e
+2025-04-25 11:19:32,079 *** Listening on home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short, home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default, home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long...
+2025-04-25 11:19:32,080 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short
+2025-04-25 11:19:32,080 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default
+2025-04-25 11:19:32,081 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long
+2025-04-25 11:19:57,856 Worker 6e83f85c56e046a2b2dab80b5f29dd9e [PID 17999]: warm shut down requested
+2025-04-25 11:19:57,858 Unsubscribing from channel rq:pubsub:6e83f85c56e046a2b2dab80b5f29dd9e
+2025-04-25 11:20:11,390 Worker rq:worker:abbf90f8a53d449ca5a7cbe7599643d6 started with PID 18823, version 2.3.2
+2025-04-25 11:20:11,390 Subscribing to channel rq:pubsub:abbf90f8a53d449ca5a7cbe7599643d6
+2025-04-25 11:20:11,391 *** Listening on home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short, home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default, home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long...
+2025-04-25 11:20:11,391 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short
+2025-04-25 11:20:11,391 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default
+2025-04-25 11:20:11,392 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long
+2025-04-25 11:22:48,390 Worker abbf90f8a53d449ca5a7cbe7599643d6 [PID 18823]: warm shut down requested
+2025-04-25 11:22:48,392 Unsubscribing from channel rq:pubsub:abbf90f8a53d449ca5a7cbe7599643d6
+2025-04-25 11:22:50,886 Worker rq:worker:94b8da9c88504a409e09aed2edd83647 started with PID 19313, version 2.3.2
+2025-04-25 11:22:50,887 Subscribing to channel rq:pubsub:94b8da9c88504a409e09aed2edd83647
+2025-04-25 11:22:50,887 *** Listening on home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short, home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default, home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long...
+2025-04-25 11:22:50,888 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short
+2025-04-25 11:22:50,888 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default
+2025-04-25 11:22:50,889 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long

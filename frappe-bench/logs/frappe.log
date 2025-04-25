@@ -1,0 +1,78 @@
+2025-04-23 19:45:59,428 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-bomhikwufk","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Réinitiliser donnée","title":"Réinitiliser donnée","module":"data-reset"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-23 19:48:51,135 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-tozckyzulw","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Réinitialiser donnée","title":"Réinitialiser donnée","module":"data-reset"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-23 19:50:33,504 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-tozckyzulw","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Réinitialiser donnée","title":"Réinitialiser donnée","module":"data-reset"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-23 19:50:36,686 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-tozckyzulw","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Réinitialiser donnée","title":"Réinitialiser donnée","module":"data-reset"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-23 19:52:32,652 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-uayxoqyjyj","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Reset","title":"Reset","module":"data-reset"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-23 19:56:48,665 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-tzabzeomco","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"ok","title":"ok","module":"data-reset"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-23 20:22:28,649 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"name":"Reinitialiser","owner":"Administrator","creation":"2025-04-23 17:20:20.802505","modified":"2025-04-23 17:20:29.194556","modified_by":"Administrator","docstatus":0,"idx":0,"label":"Reinitialiser","title":"Reinitialiser","sequence_id":25,"for_user":"","parent_page":"","app":"erpnext","type":"Workspace","link_type":"DocType","icon":"refresh","indicator_color":"green","hide_custom":0,"public":1,"is_hidden":0,"content":"[{\\"id\\":\\"PK78Nv17zm\\",\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"<span class=\\\\\\"h4\\\\\\">Reinitialiser</span>\\",\\"col\\":12}}]","doctype":"Workspace","number_cards":[],"charts":[],"shortcuts":[],"links":[],"quick_lists":[],"custom_blocks":[],"roles":[],"__last_sync_on":"2025-04-23T17:20:35.152Z","__unsaved":1,"__needs_refresh":true,"module":"Reinitialiser"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-23 20:23:10,517 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-cmxrlloglz","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Reinitialiser","title":"Reinitialiser","module":"Reinitialiser"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-24 08:45:48,925 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'frappe.model.db_query.get_database_tables'}
+2025-04-24 08:53:55,961 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'frappe.model.db_query.get_database_tables'}
+2025-04-24 08:59:36,512 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'data_reset_tool.get_all_tables'}
+2025-04-24 09:00:01,870 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.reinitiliser.page.reinitialiser.reser_data.reset_tables'}
+2025-04-24 09:00:48,391 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.reinitialiser.page.reinitialiser.reser_data.reset_tables'}
+2025-04-24 09:01:37,869 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.reinitialiser.page.reinitialiser.reset_data.get_all_tables'}
+2025-04-24 09:24:05,661 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.reinitialiser.page.reinitialiser.reset_data.get_all_tables'}
+2025-04-24 09:31:19,647 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.reinitialiser.page.reset_data.get_all_tables'}
+2025-04-24 10:53:00,892 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'tables': '["tabAbout Us Team Member","tabAllowed Dimension","tabAsset Capitalization Stock Item","tabAccounting Period"]', 'cmd': 'erpnext.reinitialiser.page.reset_data.reset_tables'}
+2025-04-25 11:08:02,664 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'reinitialiser', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-04-25 11:08:07,166 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'reinitialiser', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-04-25 11:08:19,246 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'frappe.desk.desk_page.getpage'}
+2025-04-25 11:09:06,324 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'reinitialiser', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-04-25 11:13:46,791 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'reinitialiser', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-04-25 11:14:03,654 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'reinitialiser', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-04-25 11:14:23,388 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'reinitialiser', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-04-25 11:15:49,281 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'reinitialiser', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-04-25 11:16:59,774 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'reinitialiser', 'cmd': 'frappe.desk.desk_page.getpage'}

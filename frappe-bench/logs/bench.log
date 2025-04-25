@@ -746,3 +746,86 @@
 2025-04-23 17:54:03,320 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext migrate
 2025-04-23 17:54:15,334 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost migrate
 2025-04-23 18:00:02,047 INFO /home/otisoa-vallinah/.local/bin/bench --verbose --site all backup
+2025-04-23 18:01:24,899 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost migrate
+2025-04-23 18:10:27,907 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost migrate
+2025-04-23 18:14:42,687 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-23 18:14:42,828 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-23 18:14:42,860 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-23 18:14:42,867 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-23 18:14:42,867 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-23 18:14:48,872 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost migrate
+2025-04-23 18:18:24,713 INFO /home/otisoa-vallinah/.local/bin/bench console
+2025-04-23 18:18:48,426 INFO /home/otisoa-vallinah/.local/bin/bench erpnext.localhost console
+2025-04-23 18:19:06,263 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost console
+2025-04-23 18:42:08,258 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost migrate
+2025-04-23 18:43:30,752 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost migrate
+2025-04-23 18:44:14,582 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost clear-cache
+2025-04-23 18:44:27,228 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-23 18:44:29,897 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-23 18:44:30,049 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-23 18:44:30,072 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-23 18:44:30,073 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-23 18:44:30,077 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-23 19:44:14,037 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost set-developer-mode on
+2025-04-23 19:44:22,162 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost set-developer-mode on
+2025-04-23 19:45:28,089 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost set-config developer_mode 1
+2025-04-23 19:45:39,477 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-23 19:50:11,344 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-23 19:50:21,193 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-23 19:50:21,351 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-23 19:50:21,363 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-23 19:50:21,375 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-23 19:50:21,376 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-23 20:12:35,672 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-23 20:12:35,822 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-23 20:12:35,826 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-23 20:12:35,857 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-23 20:12:35,857 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-23 21:11:57,890 INFO /home/otisoa-vallinah/.local/bin/bench use erpnext.localhost
+2025-04-23 22:15:50,879 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost clear-cache
+2025-04-23 22:16:00,996 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-23 22:16:03,503 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-23 22:16:03,772 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-23 22:16:03,790 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-23 22:16:03,810 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-23 22:16:03,813 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-23 22:24:37,264 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost clear-cache
+2025-04-23 22:24:50,481 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost clear-website-cache
+2025-04-23 22:24:54,195 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-24 07:41:28,587 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-24 07:41:28,754 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-24 07:41:28,759 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-24 07:41:28,763 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-24 07:41:28,773 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-24 07:51:01,272 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost clear-cache
+2025-04-24 07:51:03,349 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-24 08:41:49,039 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost clear-cache
+2025-04-24 08:41:51,836 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-24 08:42:55,190 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-24 08:42:55,453 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-24 08:42:55,455 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-24 08:42:55,490 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-24 08:42:55,496 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-25 10:03:13,179 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-25 10:03:13,445 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-25 10:03:13,480 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-25 10:03:13,486 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-25 10:03:13,488 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-25 10:05:45,958 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost console
+2025-04-25 10:13:33,163 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-25 11:17:12,893 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-25 11:17:13,039 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-25 11:17:13,054 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-25 11:17:13,064 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-25 11:17:13,068 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-25 11:17:25,447 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-25 11:17:25,587 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-04-25 11:17:25,593 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-25 11:17:25,621 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-25 11:17:25,621 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-25 11:17:50,782 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-25 11:17:52,958 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-25 11:17:53,098 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-25 11:17:53,105 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-25 11:17:53,124 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-25 11:17:53,134 INFO /home/otisoa-vallinah/.local/bin/bench schedule

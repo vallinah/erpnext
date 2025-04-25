@@ -6723,3 +6723,9 @@ Error while reading from 127.0.0.1:11000 : (104, 'Connection reset by peer')
 2025-04-25 11:22:50,888 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short
 2025-04-25 11:22:50,888 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default
 2025-04-25 11:22:50,889 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long
+2025-04-25 11:36:20,947 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short
+2025-04-25 11:36:20,949 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default
+2025-04-25 11:36:20,950 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long
+2025-04-25 11:49:51,042 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:short
+2025-04-25 11:49:51,045 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:default
+2025-04-25 11:49:51,047 Cleaning registries for queue: home-otisoa-vallinah-Documents-Eval-erpnext-frappe-bench:long

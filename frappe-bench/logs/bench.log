@@ -42,3 +42,8 @@
 2025-04-25 16:08:14,586 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
 2025-04-25 16:18:08,363 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost clear-cache
 2025-04-25 16:18:10,620 INFO /home/otisoa-vallinah/.local/bin/bench restart
+2025-04-28 08:40:56,549 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-04-28 08:40:56,705 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-04-28 08:40:56,721 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-04-28 08:40:56,741 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-04-28 08:40:56,742 INFO /home/otisoa-vallinah/.local/bin/bench schedule

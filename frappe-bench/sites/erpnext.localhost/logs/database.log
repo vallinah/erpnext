@@ -1675,3 +1675,5 @@ ALTER TABLE `tabCommon Code`
 TRUNCATE TABLE `tabCustomer`
 2025-04-25 16:22:13,235 WARNING database DDL Query made to DB:
 TRUNCATE TABLE `tabSupplier`
+2025-04-28 08:43:53,214 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabCustomer`

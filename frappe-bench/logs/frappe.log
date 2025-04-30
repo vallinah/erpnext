@@ -7,3 +7,30 @@ Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-eujsdcubya"
 2025-04-28 12:09:09,954 ERROR frappe New Exception collected in error log
 Site: erpnext.localhost
 Form Dict: {'cmd': 'erpnext.controller.api.test_api.get_all_customers'}
+2025-04-29 17:01:23,084 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-yqemykwjll","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"FirstImport","title":"FirstImport","module":"FirstImport"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-29 17:01:34,652 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-yqemykwjll","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"FirstImport","title":"FirstImport","module":"FirstImport"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-29 17:02:04,003 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-afyubddfdy","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"FirstImport","title":"FirstImport","module":"FirstImport"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-30 14:00:23,924 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'csv_data': 'customer_name,customer_type,customer_group,territory,email_id,phone\nClient 1,Company,Retailer,France,client1@example.com,0123456789\nClient 2,Individual,All Customer Groups,All Territories,client2@example.com,0987654321\n', 'cmd': 'erpnext.firstimport.page.testimport.import_customers'}
+2025-04-30 14:01:27,478 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'csv_data': 'customer_name,customer_type,customer_group,territory,email_id,phone\nClient 1,Company,Retailer,France,client1@example.com,0123456789\nClient 2,Individual,All Customer Groups,All Territories,client2@example.com,0987654321\n', 'cmd': 'erpnext.firstimport.page.customerImport.import_customers'}
+2025-04-30 14:18:18,112 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'csv_data': 'customer_name,customer_type,customer_group,territory,email_id,phone\nClient 1,Company,Retailer,France,client1@example.com,0123456789\nClient 2,Individual,All Customer Groups,All Territories,client2@example.com,0987654321\n', 'cmd': 'your_app.your_module.doctype.custom_import.custom_import.import_customers'}
+2025-04-30 14:19:01,361 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'csv_data': 'customer_name,customer_type,customer_group,territory,email_id,phone\nClient 1,Company,Retailer,France,client1@example.com,0123456789\nClient 2,Individual,All Customer Groups,All Territories,client2@example.com,0987654321\n', 'cmd': 'your_app.your_module.doctype.custom_import.custom_import.import_customers'}
+2025-04-30 14:25:23,554 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'csv_data': 'customer_name,customer_type,customer_group,territory,email_id,phone\nClient 1,Company,Retailer,France,client1@example.com,0123456789\nClient 2,Individual,All Customer Groups,All Territories,client2@example.com,0987654321\n', 'filename': 'custom.csv', 'cmd': 'your_app.your_module.doctype.custom_import.custom_import.import_customers'}
+2025-04-30 14:48:46,655 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'csv_data': 'customer_name,customer_type,customer_group,territory,email_id,phone\nClient 1,Company,Retailer,France,client1@example.com,0123456789\nClient 2,Individual,All Customer Groups,All Territories,client2@example.com,0987654321\n', 'filename': 'custom.csv', 'cmd': 'erpnext.firstimport.page.customer_import.import_customers'}

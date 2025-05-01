@@ -1677,3 +1677,87 @@ TRUNCATE TABLE `tabCustomer`
 TRUNCATE TABLE `tabSupplier`
 2025-04-28 08:43:53,214 WARNING database DDL Query made to DB:
 TRUNCATE TABLE `tabCustomer`
+2025-05-01 09:58:34,425 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabItem`
+2025-05-01 09:58:34,437 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabMaterial Request`
+2025-05-01 09:58:34,460 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabMaterial Request Item`
+2025-05-01 09:58:34,473 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabMaterial Request Plan Item`
+2025-05-01 09:58:34,481 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabQuotation Item`
+2025-05-01 09:58:34,493 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabQuotation`
+2025-05-01 09:58:34,504 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabQuotation Lost Reason`
+2025-05-01 09:58:34,510 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabQuotation Lost Reason Detail`
+2025-05-01 09:58:34,522 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabRequest for Quotation`
+2025-05-01 09:58:34,535 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabRequest for Quotation Item`
+2025-05-01 09:58:34,543 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabRequest for Quotation Supplier`
+2025-05-01 09:58:34,568 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabSupplier Quotation Item`
+2025-05-01 09:58:34,584 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabSupplier Quotation`
+2025-05-01 09:58:34,600 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabPurchase Order`
+2025-05-01 09:58:34,624 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabPurchase Order Item`
+2025-05-01 09:58:34,636 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabPurchase Order Item Supplied`
+2025-05-01 09:59:08,095 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabItem`
+2025-05-01 09:59:08,111 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabMaterial Request`
+2025-05-01 09:59:08,131 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabMaterial Request Item`
+2025-05-01 09:59:08,147 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabMaterial Request Plan Item`
+2025-05-01 09:59:08,162 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabQuotation Item`
+2025-05-01 09:59:08,175 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabQuotation`
+2025-05-01 09:59:08,187 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabQuotation Lost Reason`
+2025-05-01 09:59:08,196 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabQuotation Lost Reason Detail`
+2025-05-01 09:59:08,213 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabRequest for Quotation`
+2025-05-01 09:59:08,233 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabRequest for Quotation Item`
+2025-05-01 09:59:08,244 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabRequest for Quotation Supplier`
+2025-05-01 09:59:08,264 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabSupplier Quotation Item`
+2025-05-01 09:59:08,280 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabSupplier Quotation`
+2025-05-01 09:59:08,301 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabPurchase Order`
+2025-05-01 09:59:08,323 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabPurchase Order Item`
+2025-05-01 09:59:08,333 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabPurchase Order Item Supplied`
+2025-05-01 09:59:08,341 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabItem Supplier`
+2025-05-01 09:59:08,354 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabSupplier`
+2025-05-01 09:59:08,371 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabSupplier Group`
+2025-05-01 09:59:08,378 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabSupplier Group Item`
+2025-05-01 09:59:08,385 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabSupplier Item`
+2025-05-01 12:27:17,115 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-05-01 12:27:18,679 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAddress` ADD COLUMN `tax_category` varchar(140), ADD COLUMN `is_your_company_address` tinyint NOT NULL DEFAULT 0
+2025-05-01 12:27:18,687 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAddress` MODIFY `is_shipping_address` tinyint NOT NULL DEFAULT 0, MODIFY `disabled` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_address` tinyint NOT NULL DEFAULT 0
+2025-05-01 12:27:18,715 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` ADD COLUMN `is_billing_contact` tinyint NOT NULL DEFAULT 0
+2025-05-01 12:27:18,726 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` MODIFY `sync_with_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_contact` tinyint NOT NULL DEFAULT 0, MODIFY `unsubscribed` tinyint NOT NULL DEFAULT 0, MODIFY `pulled_from_google_contacts` tinyint NOT NULL DEFAULT 0

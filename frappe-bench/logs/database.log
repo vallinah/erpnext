@@ -1785,3 +1785,7 @@ ALTER TABLE `tabData Reset` ADD COLUMN `item` tinyint NOT NULL DEFAULT 0, ADD CO
 ALTER TABLE `tabData Reset` ADD COLUMN `supplier` tinyint NOT NULL DEFAULT 0
 2025-05-05 20:28:35,733 WARNING database DDL Query made to DB:
 ALTER TABLE `tabData Reset` MODIFY `item` tinyint NOT NULL DEFAULT 0, MODIFY `quotation` tinyint NOT NULL DEFAULT 0, MODIFY `supplier_quotation` tinyint NOT NULL DEFAULT 0, MODIFY `purchase_receipt` tinyint NOT NULL DEFAULT 0, MODIFY `purchase_order` tinyint NOT NULL DEFAULT 0, MODIFY `payment_entry` tinyint NOT NULL DEFAULT 0, MODIFY `material_request` tinyint NOT NULL DEFAULT 0, MODIFY `purchase_invoice` tinyint NOT NULL DEFAULT 0
+2025-05-06 13:05:34,696 WARNING database DDL Query made to DB:
+ALTER TABLE `tabData Reset` ADD COLUMN `request_for_quotation` tinyint NOT NULL DEFAULT 0
+2025-05-06 13:05:34,708 WARNING database DDL Query made to DB:
+ALTER TABLE `tabData Reset` MODIFY `material_request` tinyint NOT NULL DEFAULT 0, MODIFY `quotation` tinyint NOT NULL DEFAULT 0, MODIFY `payment_entry` tinyint NOT NULL DEFAULT 0, MODIFY `supplier_quotation` tinyint NOT NULL DEFAULT 0, MODIFY `supplier` tinyint NOT NULL DEFAULT 0, MODIFY `purchase_invoice` tinyint NOT NULL DEFAULT 0, MODIFY `purchase_receipt` tinyint NOT NULL DEFAULT 0, MODIFY `purchase_order` tinyint NOT NULL DEFAULT 0, MODIFY `item` tinyint NOT NULL DEFAULT 0

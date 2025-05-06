@@ -61,3 +61,90 @@ Form Dict: {'doc': '{"docstatus":0,"doctype":"Purchase Order","name":"new-purcha
 2025-05-01 14:44:04,540 ERROR frappe New Exception collected in error log
 Site: erpnext.localhost
 Form Dict: {'item_idx': '1', 'docs': '{"docstatus":0,"doctype":"Purchase Order","name":"new-purchase-order-wcljpohwqp","__islocal":1,"__unsaved":1,"owner":"Administrator","title":"{supplier_name}","naming_series":"PUR-ORD-.YYYY.-","transaction_date":"2025-05-01","company":"otisoa","apply_tds":0,"is_subcontracted":0,"currency":"BSD","buying_price_list":"Standard Buying","price_list_currency":"BSD","ignore_pricing_rule":0,"items":[{"docstatus":0,"doctype":"Purchase Order Item","name":"new-purchase-order-item-rwwhomqaex","__islocal":1,"__unsaved":1,"owner":"Administrator","fg_item_qty":1,"stock_uom":"Unit","margin_type":"","is_free_item":0,"apply_tds":1,"delivered_by_supplier":0,"against_blanket_order":0,"include_exploded_items":0,"is_fixed_asset":"","page_break":0,"parent":"new-purchase-order-wcljpohwqp","parentfield":"items","parenttype":"Purchase Order","idx":1,"qty":1,"subcontracted_quantity":0,"conversion_factor":1,"stock_qty":1,"price_list_rate":0,"last_purchase_rate":0,"base_price_list_rate":0,"margin_rate_or_amount":0,"rate_with_margin":0,"discount_amount":0,"distributed_discount_amount":0,"base_rate_with_margin":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"stock_uom_rate":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"actual_qty":0,"company_total_stock":0,"blanket_order_rate":0,"received_qty":0,"returned_qty":0,"billed_amt":0,"weight_per_unit":0,"total_weight":0,"schedule_date":"2025-05-01","item_code":"","item_name":"1","item_group":"Products","description":"1","image":"","uom":"Unit","discount_percentage":0,"warehouse":"Stores - O","expense_account":"Cost of Goods Sold - O","cost_center":"Main - O","item_tax_rate":"{}"}],"tax_withholding_net_total":0,"pricing_rules":[],"supplied_items":[],"taxes":[],"disable_rounded_total":0,"apply_discount_on":"Grand Total","payment_schedule":[],"status":"Draft","advance_payment_status":"Not Initiated","group_same_items":0,"is_internal_supplier":0,"party_account_currency":"BSD","is_old_subcontracting_flow":0,"advance_paid":0,"conversion_rate":1,"plc_conversion_rate":1,"billing_address":"","shipping_address":"","billing_address_display":"","shipping_address_display":"","base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":1,"grand_total":0,"taxes_and_charges_deducted":0,"taxes_and_charges_added":0,"base_grand_total":0,"base_taxes_and_charges_added":0,"base_taxes_and_charges_deducted":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"rounded_total":0,"rounding_adjustment":0,"base_rounding_adjustment":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"supplier_name":"s1","represents_company":"","supplier":"s1","tax_category":"","language":"en","schedule_date":"2025-05-01","idx":0,"total_net_weight":0,"base_tax_withholding_net_total":0,"additional_discount_percentage":0,"discount_amount":0,"per_billed":0,"per_received":0}', 'method': 'process_item_selection', 'args': '{"item_idx":1}', 'cmd': 'run_doc_method'}
+2025-05-05 22:32:05,049 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'byuing-import-', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-05 22:32:13,395 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'byuing-import-', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-05 22:35:43,562 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-otsimuurdg","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Buying Import","title":"Buying Import","module":"Buying Import"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-05 22:35:58,277 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-otsimuurdg","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Buying Import","title":"Buying Import","module":"Buying Import"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-05 23:19:20,498 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'file_content': 'supplier_name,country,type\r\nSanifer,Madagascar,Company\r\nExxon,Usa,Company\r\nElectroplus,Madagascar,Company', 'file_name': 'import - fichier2.csv', 'cmd': 'erpnext.buying_import.page.import_supplier'}
+2025-05-05 23:55:54,579 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'data:text/csv;base64,c3VwcGxpZXJfbmFtZSxjb3VudHJ5LHR5cGUNClNhbmlmZXIsTWFkYWdhc2NhcixDb21wYW55DQpFeHhvbixVc2EsQ29tcGFueQ0KRWxlY3Ryb3BsdXMsTWFkYWdhc2NhcixDb21wYW55DQo=', 'filename': 'import - fichier2.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 00:01:50,104 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'cmVmX3JlcXVlc3RfcXVvdGF0aW9uLHN1cHBsaWVyDQoxLFNhbmlmZXINCjEsRXh4b24NCjIsU2FuaWZlcg==', 'filename': 'import - fichier3.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 00:01:50,105 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'ZGF0ZSxpdGVtX25hbWUsaXRlbV9ncm91cGUscmVxdWlyZWRfYnkscXVhbnRpdHkscHVycG9zZSx0YXJnZXRfd2FyZWhvdXNlLHJlZg0KMDIvMDUvMjAyNSxib3Vsb24scGllY2UsMDIvMDYvMjAyNSwxMyxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDENCjAyLzA1LzIwMjUsY2ltZW50LGNvbnNvbW1hYmxlLDAyLzA2LzIwMjUsNSxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDI=', 'filename': 'import - fichier1.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 00:01:50,105 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'c3VwcGxpZXJfbmFtZSxjb3VudHJ5LHR5cGUNClNhbmlmZXIsTWFkYWdhc2NhcixDb21wYW55DQpFeHhvbixVc2EsQ29tcGFueQ0KRWxlY3Ryb3BsdXMsTWFkYWdhc2NhcixDb21wYW55DQo=', 'filename': 'import - fichier2.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 00:07:02,481 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'c3VwcGxpZXJfbmFtZSxjb3VudHJ5LHR5cGUNClNhbmlmZXIsTWFkYWdhc2NhcixDb21wYW55DQpFeHhvbixVc2EsQ29tcGFueQ0KRWxlY3Ryb3BsdXMsTWFkYWdhc2NhcixDb21wYW55DQo=', 'filename': 'import - fichier2.csv', 'folder': 'Home/Attachments', 'cmd': 'frappe.utils.file_manager.upload_file'}
+2025-05-06 00:07:02,481 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'ZGF0ZSxpdGVtX25hbWUsaXRlbV9ncm91cGUscmVxdWlyZWRfYnkscXVhbnRpdHkscHVycG9zZSx0YXJnZXRfd2FyZWhvdXNlLHJlZg0KMDIvMDUvMjAyNSxib3Vsb24scGllY2UsMDIvMDYvMjAyNSwxMyxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDENCjAyLzA1LzIwMjUsY2ltZW50LGNvbnNvbW1hYmxlLDAyLzA2LzIwMjUsNSxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDI=', 'filename': 'import - fichier1.csv', 'folder': 'Home/Attachments', 'cmd': 'frappe.utils.file_manager.upload_file'}
+2025-05-06 00:07:02,481 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'cmVmX3JlcXVlc3RfcXVvdGF0aW9uLHN1cHBsaWVyDQoxLFNhbmlmZXINCjEsRXh4b24NCjIsU2FuaWZlcg==', 'filename': 'import - fichier3.csv', 'folder': 'Home/Attachments', 'cmd': 'frappe.utils.file_manager.upload_file'}
+2025-05-06 00:07:49,767 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'c3VwcGxpZXJfbmFtZSxjb3VudHJ5LHR5cGUNClNhbmlmZXIsTWFkYWdhc2NhcixDb21wYW55DQpFeHhvbixVc2EsQ29tcGFueQ0KRWxlY3Ryb3BsdXMsTWFkYWdhc2NhcixDb21wYW55DQo=', 'filename': 'import - fichier2.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 00:07:49,768 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'ZGF0ZSxpdGVtX25hbWUsaXRlbV9ncm91cGUscmVxdWlyZWRfYnkscXVhbnRpdHkscHVycG9zZSx0YXJnZXRfd2FyZWhvdXNlLHJlZg0KMDIvMDUvMjAyNSxib3Vsb24scGllY2UsMDIvMDYvMjAyNSwxMyxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDENCjAyLzA1LzIwMjUsY2ltZW50LGNvbnNvbW1hYmxlLDAyLzA2LzIwMjUsNSxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDI=', 'filename': 'import - fichier1.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 00:07:49,769 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'cmVmX3JlcXVlc3RfcXVvdGF0aW9uLHN1cHBsaWVyDQoxLFNhbmlmZXINCjEsRXh4b24NCjIsU2FuaWZlcg==', 'filename': 'import - fichier3.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 00:09:24,550 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'ZGF0ZSxpdGVtX25hbWUsaXRlbV9ncm91cGUscmVxdWlyZWRfYnkscXVhbnRpdHkscHVycG9zZSx0YXJnZXRfd2FyZWhvdXNlLHJlZg0KMDIvMDUvMjAyNSxib3Vsb24scGllY2UsMDIvMDYvMjAyNSwxMyxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDENCjAyLzA1LzIwMjUsY2ltZW50LGNvbnNvbW1hYmxlLDAyLzA2LzIwMjUsNSxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDI=', 'filename': 'import - fichier1.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 00:09:24,551 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'c3VwcGxpZXJfbmFtZSxjb3VudHJ5LHR5cGUNClNhbmlmZXIsTWFkYWdhc2NhcixDb21wYW55DQpFeHhvbixVc2EsQ29tcGFueQ0KRWxlY3Ryb3BsdXMsTWFkYWdhc2NhcixDb21wYW55DQo=', 'filename': 'import - fichier2.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 00:09:24,552 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'cmVmX3JlcXVlc3RfcXVvdGF0aW9uLHN1cHBsaWVyDQoxLFNhbmlmZXINCjEsRXh4b24NCjIsU2FuaWZlcg==', 'filename': 'import - fichier3.csv', 'folder': 'Home/Attachments', 'cmd': 'erpnext.buying_import.page.import_supplier.import_buying_documents'}
+2025-05-06 09:32:26,006 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'cmVmX3JlcXVlc3RfcXVvdGF0aW9uLHN1cHBsaWVyDQoxLFNhbmlmZXINCjEsRXh4b24NCjIsU2FuaWZlcg==', 'filename': 'import - fichier3.csv', 'folder': 'Home/Attachments', 'cmd': 'frappe.utils.file_manager.upload_file'}
+2025-05-06 09:32:26,006 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'c3VwcGxpZXJfbmFtZSxjb3VudHJ5LHR5cGUNClNhbmlmZXIsTWFkYWdhc2NhcixDb21wYW55DQpFeHhvbixVc2EsQ29tcGFueQ0KRWxlY3Ryb3BsdXMsTWFkYWdhc2NhcixDb21wYW55DQo=', 'filename': 'import - fichier2.csv', 'folder': 'Home/Attachments', 'cmd': 'frappe.utils.file_manager.upload_file'}
+2025-05-06 09:32:26,007 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'ZGF0ZSxpdGVtX25hbWUsaXRlbV9ncm91cGUscmVxdWlyZWRfYnkscXVhbnRpdHkscHVycG9zZSx0YXJnZXRfd2FyZWhvdXNlLHJlZg0KMDIvMDUvMjAyNSxib3Vsb24scGllY2UsMDIvMDYvMjAyNSwxMyxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDENCjAyLzA1LzIwMjUsY2ltZW50LGNvbnNvbW1hYmxlLDAyLzA2LzIwMjUsNSxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDI=', 'filename': 'import - fichier1.csv', 'folder': 'Home/Attachments', 'cmd': 'frappe.utils.file_manager.upload_file'}
+2025-05-06 09:40:52,981 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'ZGF0ZSxpdGVtX25hbWUsaXRlbV9ncm91cGUscmVxdWlyZWRfYnkscXVhbnRpdHkscHVycG9zZSx0YXJnZXRfd2FyZWhvdXNlLHJlZg0KMDIvMDUvMjAyNSxib3Vsb24scGllY2UsMDIvMDYvMjAyNSwxMyxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDENCjAyLzA1LzIwMjUsY2ltZW50LGNvbnNvbW1hYmxlLDAyLzA2LzIwMjUsNSxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDI=', 'filename': 'import - fichier1.csv', 'folder': 'Home/Attachments', 'cmd': 'frappe.utils.file_manager.save_file'}
+2025-05-06 09:40:52,982 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'c3VwcGxpZXJfbmFtZSxjb3VudHJ5LHR5cGUNClNhbmlmZXIsTWFkYWdhc2NhcixDb21wYW55DQpFeHhvbixVc2EsQ29tcGFueQ0KRWxlY3Ryb3BsdXMsTWFkYWdhc2NhcixDb21wYW55DQo=', 'filename': 'import - fichier2.csv', 'folder': 'Home/Attachments', 'cmd': 'frappe.utils.file_manager.save_file'}
+2025-05-06 09:40:52,983 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filedata': 'cmVmX3JlcXVlc3RfcXVvdGF0aW9uLHN1cHBsaWVyDQoxLFNhbmlmZXINCjEsRXh4b24NCjIsU2FuaWZlcg==', 'filename': 'import - fichier3.csv', 'folder': 'Home/Attachments', 'cmd': 'frappe.utils.file_manager.save_file'}
+2025-05-06 10:23:51,189 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'frappe.handler.upload_file'}
+2025-05-06 10:23:51,194 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'frappe.handler.upload_file'}
+2025-05-06 10:23:51,206 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'frappe.handler.upload_file'}
+2025-05-06 13:03:32,704 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'method': 'erpnext.buying.doctype.request_for_quotation.request_for_quotation.make_supplier_quotation_from_rfq', 'source_names': '["PUR-RFQ-2025-00003"]', 'target_doc': '{"docstatus":0,"doctype":"Supplier Quotation","name":"new-supplier-quotation-crecshuxyc","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"PUR-SQTN-.YYYY.-","company":"otisoa","status":"Draft","transaction_date":"2025-05-06","currency":"BSD","buying_price_list":"Standard Buying","price_list_currency":"BSD","ignore_pricing_rule":0,"items":[],"taxes":[],"apply_discount_on":"Grand Total","disable_rounded_total":0,"pricing_rules":[],"group_same_items":0,"is_subcontracted":0,"valid_till":"2025-06-06","billing_address":"","shipping_address":"","billing_address_display":"","shipping_address_display":"","conversion_rate":1,"plc_conversion_rate":1,"base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"grand_total":0,"taxes_and_charges_deducted":0,"taxes_and_charges_added":0,"base_grand_total":0,"base_taxes_and_charges_added":0,"base_taxes_and_charges_deducted":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"rounded_total":0,"rounding_adjustment":0,"base_rounding_adjustment":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"supplier_name":"s1","supplier":"s1","supplier_address":null,"address_display":null,"tax_category":"","contact_person":null,"contact_display":null,"contact_email":null,"contact_mobile":null,"language":"en"}', 'cmd': 'frappe.model.mapper.map_docs'}
+2025-05-06 13:09:00,044 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'item': '1', 'material_request': '1', 'quotation': '1', 'supplier_quotation': '1', 'purchase_order': '1', 'purchase_invoice': '1', 'payment_entry': '1', 'purchase_receipt': '1', 'request_for_quotation': '1', 'supplier': '1', 'cmd': 'custom_reset.api.reset_data'}

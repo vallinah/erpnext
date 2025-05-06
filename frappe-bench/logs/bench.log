@@ -97,3 +97,33 @@
 2025-05-01 14:10:20,085 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost clear-cache
 2025-05-01 14:10:21,729 INFO /home/otisoa-vallinah/.local/bin/bench restart
 2025-05-01 14:16:47,209 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost clear-cache
+2025-05-05 15:01:11,885 INFO /home/otisoa-vallinah/.local/bin/bench new-app custom_reset
+2025-05-05 15:01:11,890 LOG creating new app custom_reset
+2025-05-05 15:03:34,272 LOG Installing custom_reset
+2025-05-05 15:03:34,273 DEBUG cd /home/otisoa-vallinah/Documents/Eval/erpnext/frappe-bench && /home/otisoa-vallinah/Documents/Eval/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/otisoa-vallinah/Documents/Eval/erpnext/frappe-bench/apps/custom_reset 
+2025-05-05 15:03:52,525 DEBUG bench build --app custom_reset
+2025-05-05 15:03:52,679 INFO /home/otisoa-vallinah/.local/bin/bench build --app custom_reset
+2025-05-05 15:34:26,443 INFO /home/otisoa-vallinah/.local/bin/bench new-app custom_reset
+2025-05-05 15:34:26,449 LOG creating new app custom_reset
+2025-05-05 15:35:52,158 LOG Installing custom_reset
+2025-05-05 15:35:52,159 DEBUG cd /home/otisoa-vallinah/Documents/Eval/erpnext/frappe-bench && /home/otisoa-vallinah/Documents/Eval/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/otisoa-vallinah/Documents/Eval/erpnext/frappe-bench/apps/custom_reset 
+2025-05-05 15:36:01,905 DEBUG bench build --app custom_reset
+2025-05-05 15:36:02,050 INFO /home/otisoa-vallinah/.local/bin/bench build --app custom_reset
+2025-05-05 15:50:20,238 INFO /home/otisoa-vallinah/.local/bin/bench --site erpnext.localhost install-app custom_reset
+2025-05-05 15:50:51,671 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-05-05 15:50:51,927 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-05-05 15:50:51,934 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-05-05 15:50:51,964 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-05-05 15:50:51,965 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-05-05 15:59:07,267 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-05-05 15:59:07,534 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-05-05 15:59:07,558 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-05-05 15:59:07,558 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-05-05 15:59:07,560 INFO /home/otisoa-vallinah/.local/bin/bench worker
+2025-05-06 00:00:01,391 INFO /home/otisoa-vallinah/.local/bin/bench --verbose --site all backup
+2025-05-06 12:00:02,206 INFO /home/otisoa-vallinah/.local/bin/bench --verbose --site all backup
+2025-05-06 13:08:32,904 INFO /home/otisoa-vallinah/.local/bin/bench start
+2025-05-06 13:08:33,182 INFO /home/otisoa-vallinah/.local/bin/bench serve --port 8000
+2025-05-06 13:08:33,190 INFO /home/otisoa-vallinah/.local/bin/bench schedule
+2025-05-06 13:08:33,222 INFO /home/otisoa-vallinah/.local/bin/bench watch
+2025-05-06 13:08:33,228 INFO /home/otisoa-vallinah/.local/bin/bench worker
